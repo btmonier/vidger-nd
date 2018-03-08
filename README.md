@@ -1,6 +1,9 @@
-ViDGER <img src="vignettes/vidger-logo.png" align="right" />
+ViDGER-nd <img src="vignettes/vidger-logo.png" align="right" />
 ==================================================
 **Vi**sualization of **D**ifferential **G**ene **E**xpression using **R**
+
+**Note:** this is the **non-developmental** version of ViDGER. This version 
+of ViDGER requires you to have an R version `>= 3.4`.
 
 Installation
 ------------
