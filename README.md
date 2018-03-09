@@ -1,9 +1,16 @@
 ViDGER-nd <img src="vignettes/vidger-logo.png" align="right" />
 ==================================================
+
+[![Build Status](https://travis-ci.org/btmonier/vidger-nd.svg?branch=master)](https://travis-ci.org/btmonier/vidger-nd)
+
+
+Overview
+--------
 **Vi**sualization of **D**ifferential **G**ene **E**xpression using **R**
 
 **Note:** this is the **non-developmental** version of ViDGER. This version 
 of ViDGER requires you to have an R version `>= 3.4`.
+
 
 Installation
 ------------
@@ -13,6 +20,7 @@ The easiest way to obtain this package is to install `devtools` and pull the pac
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("btmonier/vidger-nd")
 ```
+
 
 New Functions
 -------------
@@ -26,6 +34,7 @@ New Functions
 * `vsMAMatrix()`
 * `vsFourWay()`
 
+
 Package Dependencies
 --------------------
 This package requires a few additional packages to work properly. Make sure the following packages are installed and loaded into your `R` directory. The current version of the package automatically installs and loads these if not found in your `R` directory:
@@ -34,6 +43,7 @@ This package requires a few additional packages to work properly. Make sure the 
 * `dplyr` for data munging
 * `tidyr` for additional data munging
 * `GGally` for matrix visualizations
+
 
 Loading test data
 -----------------
@@ -49,6 +59,7 @@ To load these data sets, use the following command:
 data("<object-type>")
 ```
 ...where `<object-type>` is one of the previously mentioned data sets.
+
 
 Getting help
 ------------
